@@ -1,0 +1,764 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container {
+    width: 1920px;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.nav-div {
+    display: flex;
+    width: 1230px;
+    height: 52px;
+    margin-left: 345px;
+    margin-right: 345px;
+    margin-top: 20px;
+}
+
+.nav-div-main-logo {
+    height: 22px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+.nav-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    font-family: Ubuntu;
+    color: rgb(66, 69, 81);
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: rgb(255, 90, 48);
+}
+
+.contact-section {
+    width: 421px;
+    height: 48px;
+    display: flex;
+}
+
+.header-main-section {
+    display: flex;
+}
+
+.contact-section-iphone {
+    height: 40px;
+    margin-right: 5px;
+}
+
+.call-us-text {
+    width: 45px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.number-text {
+    height: 27px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 18px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.number-text:hover {
+    color: rgb(255, 90, 48);
+}
+
+.call-us-section {
+    margin-right: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    margin-top: 12px;
+    width: 1920px;
+    height: 988px;
+    background-image: url(/images/bg-image.png);
+}
+
+.hero-content {
+    height: 188px;
+    width: 577px;
+    margin-top: 230px;
+    margin-left: 389px;
+}
+
+.hero-content-span-x {
+    margin: 0px;
+    color: rgb(255, 90, 48);
+}
+
+.hero-content-name {
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 130%;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.hero-content-fully {
+    font-family: Ubuntu;
+    font-weight: 400px;
+    font-size: 20px;
+    width: 595px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 61px;
+}
+
+.hero-learn-more-btn {
+    width: 278px;
+    height: 52px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: Ubuntu;
+    border-radius: 4px;
+    margin-right: 24px;
+    transition: 0.3s;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero-learn-more-btn:hover {
+    border: solid rgb(255, 90, 48);
+    background-color: rgb(255, 90, 48);
+}
+
+.hero-buttons {
+    width: 526px;
+    display: flex;
+}
+
+.hero-submit-request-btn {
+    width: 224px;
+    height: 52px;
+    border: 1px solid rgb(255, 90, 48);
+    background-color: rgb(255, 90, 48);
+    color: white;
+    font-family: Ubuntu;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero-submit-request-btn:hover {
+    background-color: rgb(252, 51, 0);
+}
+
+.hero-nav {
+    display: flex;
+    width: 724px;
+    height: 54px;
+    margin-top: 179px;
+}
+
+.hero-nav-elements {
+    margin-right: 5px;
+    width: 178px;
+    height: 54px;
+}
+
+.hero-nav-num-style {
+    width: 32px;
+    height: 42px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+}
+
+.hero-nav-num-special {
+    opacity: 0.6;
+}
+
+.hero-nav-divider {
+    width: 178px;
+    height: 0px;
+    margin-top: 11px;
+    border: 1px solid white;
+}
+
+.hero-nav-divider-not-selected {
+    opacity: 0.6;
+}
+
+.video {
+    width: 1230px;
+    height: 671px;
+    margin-left: 345px;
+    margin-top: 130px;
+}
+
+.video-header {
+    width: 800px;
+    height: 60px;
+    margin-left: 245px;
+    margin-right: 245px;
+    font-family: Ubuntu;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.video-text-holder {
+    width: 810px;
+    height: 27px;
+    margin-left: 210px;
+    margin-right: 210px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.video-paragraph {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(120, 122, 128);
+}
+
+.video-container {
+    width: 1230px;
+    height: 500px;
+    margin-right: 345px;
+    background-image: url(/images/video.png);
+}
+
+.core-values {
+    margin-top: 180px;
+    width: 1231px;
+    height: 359px;  
+    margin-left: 345px;
+    margin-bottom: 120px;
+}
+
+.core-values-header {
+    margin-left: 444px;
+    margin-bottom: 24px;
+    height: 60px;
+    font-family: Ubuntu;
+    font-size: 46px;
+    font-weight: 700;   
+    color: rgb(30, 33, 44);
+}
+
+.core-values-text-container {
+    text-align: center;
+    margin-left: 210px;
+    width: 810px;
+    height: 27px;
+    margin-bottom: 60px;
+}
+
+.core-values-header-paragraph {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(120, 122, 128);
+}
+
+.core-values-container {
+    display: flex;
+    width: 1231px;
+    height: 188px;
+}
+
+.core-values-divider {
+    margin-right: 93.5px;
+    width: 0px;
+    height: 188px;
+    border: 0.5px solid rgb(255, 90, 48);
+    opacity: 0.5;
+}
+
+.core-values-value-container {
+    width: 285px;
+    height: 188px;
+    margin-right: 94.5px;
+}
+
+.core-values-image {
+    margin-left: 121.91px;
+    margin-bottom: 24px;
+}
+
+.core-values-value-container-header-container {
+    margin-bottom: 8px;
+    margin-right: 100px;
+    width: 285px;
+    height: 30px;
+    text-align: center;
+}
+
+.core-value-paragraph-style {
+    color: rgb(120, 122, 128);
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.core-values-value-container-p-container {
+    text-align: center;
+    width: 285px;
+    height: 75px;
+}
+
+.core-values-value-container-header {
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.question-container {
+    width: 1230px;
+    height: 243px;
+    margin-left: 345px;
+    margin-right: 345px;
+    margin-bottom: 120px;
+}
+
+.question-container-h3-container {
+    text-align: center;
+    margin-top: 48px;
+    margin-left: 355px;
+    margin-bottom: 32px;
+    width: 520px;
+    height: 42px;
+}
+
+.question-h3-style {
+    color: rgb(30, 33, 44);
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.textareas {
+    margin-right: 60px;
+    margin-left: 60px;
+    width: 1086px;
+    height: 73px;
+    display: flex;
+}
+
+.textareas-element {
+    width: 260px;
+    height: 73px;
+    margin-right: 24px;
+}
+
+.textareas-element-add {
+    width: 414px;
+    height: 73px;
+    margin-right: 24px;
+}
+
+.textareas-element-header {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.input-custom {
+    height: 44px;
+    width: 260px;
+    background-color: rgb(215, 218, 221);
+    padding-left: 16px;
+    border-radius: 4px;
+    border: 1px solid rgb(154, 156, 165);
+    background: rgb(244, 245, 247);
+}
+
+.input-custom-add {
+    width: 414px;
+    height: 44px;
+    background-color: rgb(215, 218, 221);
+    padding-left: 16px;
+    border-radius: 4px;
+    border: 1px solid rgb(154, 156, 165);
+    background: rgb(244, 245, 247);
+}
+
+.input-custom::placeholder {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(154, 156, 165);
+}
+
+.send-button {
+    background-color: rgb(255, 90, 48);
+    width: 104px;
+    height: 44px;
+    padding-left: 32px;
+    padding-right: 32px;
+    text-align: center;
+    border-radius: 4px;
+    border: solid rgb(255, 90, 48);
+    margin-top: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.send-button:hover {
+   background-color:  rgb(252, 51, 0);
+   border: solid rgb(252, 51, 0);
+}
+
+.send-text {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.services-header {
+    margin-left: 823px;
+    width: 274px;
+    height: 60px;
+    margin-bottom: 24px;
+}
+
+.services-header-text {
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 46px;
+    color: rgb(30, 33, 44);
+}
+
+.service-header-info {
+    margin-left: 555px;
+    margin-right: 555px;
+    width: 810px;
+    height: 27px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.service-header-info-text {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(120, 122, 128);
+}
+
+.services-main-container {
+    display: flex;
+    width: 1920px;
+    height: 285px;
+    margin-bottom: 80px;
+}
+
+.services-main-container-2 {
+    margin-left: 345px;
+    display: flex;
+    width: 1260px;
+    height: 285px;
+}
+
+.services-main-container-element {
+    cursor: pointer;
+    margin-right: 30px;
+    width: 285px;
+    height: 285px;
+    background: transparent;
+    border-radius: 4px;
+    transition: 0.3s;
+    border: 1px solid rgb(229, 232, 237);
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03),0px 12px 10px -6px rgba(154, 156, 165, 0.04),0px 30px 24px -10px rgba(154, 156, 165, 0.05),0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+}
+
+.services-main-container-element:hover {
+    border: 1px solid rgb(30, 33, 44);
+    background-color: rgb(30, 33, 44);
+}
+
+.services-main-container-element:hover .services-description {
+    color: white;
+}
+
+.services-main-container-element-inner-container {
+    width: 125px;
+    height: 106px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 89px;
+    margin-bottom: 90px;
+}
+
+.services-main-container-element-inner-container-2 {
+    width: 204px;
+    margin-right: 40.5px;
+    margin-left: 40.5px;
+}
+
+.services-main-container-element-inner-container-3 {
+    width: 144px;
+    margin-right: 70.5px;
+    margin-left: 70.5px;
+}
+
+.services-main-container-element-inner-container-4 {
+    width: 72px;
+    margin-left: 106.5px;
+    margin-right: 106.5px;
+}
+
+.services-imgs {
+    margin-left: 36.5px;
+    margin-top: 1.73px;
+    margin-bottom: 25.73px;
+}
+
+.services-imgs-2 {
+    margin-left: 82.2px;
+}
+
+.services-imgs-3 {
+    margin-left: 46px;
+}
+
+.services-imgs-4 {
+    margin-left: 13.25px;
+}
+
+.services-description {
+    width: 125px;
+    height: 30px;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(30, 33, 44);
+    transition: 0.3s;
+}
+
+.services-description-2 {
+    width: 204px;
+}
+
+.services-description-3 {
+    width: 144px;
+}
+
+.services-description-4 {
+    width: 72px;
+}
+
+.services-section {
+    background-image: url(/images/services-bg.jpg);
+    height: 700px;
+}
+
+.services-learn-more {
+    width: 652px;
+    height: 52px;
+    display: flex;
+    margin-left: 634px;
+}
+
+.learnmore-text {
+    margin-right: 40px;
+    margin-left: 0px;
+    margin-top: 5px;
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(30, 33, 44);
+}
+
+.view-services-btn {
+    border: 1px solid rgb(255, 90, 48);
+    width: 207px;
+    height: 52px;
+    border-radius: 4px;
+    background: rgb(255, 90, 48);
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.view-services-btn:hover {
+    background-color:  rgb(252, 51, 0);
+    border: solid rgb(252, 51, 0);
+}
+
+.projects {
+    width: 1242px;
+    height: 752px;
+    margin-top: 120px;
+    margin-left: 345px;
+    margin-bottom: 120px;
+}
+
+.projects-header-container {
+    width: 705px;
+    height: 120px;
+    margin-bottom: 60px;
+}
+
+.projects-header-style {
+    font-family: Ubuntu;
+    font-size: 46px;
+    font-weight: 700;
+    color: rgb(30, 33, 44);
+    text-align: left;
+}
+
+.projects-cards-container {
+    height: 440px;
+    width: 1230px;
+    display: flex;
+    margin-bottom: 85px;
+}
+
+.projects-card {
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03),0px 12px 10px -6px rgba(154, 156, 165, 0.04),0px 30px 24px -10px rgba(154, 156, 165, 0.05),0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    background: rgb(255, 255, 255);
+    width: 390px;
+    height: 440px;
+    margin-right: 30px;
+}
+
+.projects-card-img-container {
+    object-fit: cover;
+    width: 390px;
+    height: 345px;
+    margin-bottom: 16px;    
+}
+
+.projects-card-header-container {
+    width: 350px;
+    height: 30px;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(30, 33, 44);
+    margin-bottom: 4px;
+    margin-left: 20px;
+}
+
+.projects-card-header-descript {
+    width: 350px;
+    height: 21px;
+    text-align: center;
+    color: rgb(120, 122, 128);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.projects-view-portfolio-container {
+    display: flex;
+    width: 600px;
+    height: 52px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: left;
+    margin-left: 341px;
+}
+
+.view-portfolio {
+    border: 1px solid rgb(255, 90, 48);
+    width: 224px;
+    height: 52px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    background: rgb(255, 90, 48);
+    transition: 0.3s;
+}
+
+.view-portfolio:hover {
+    background-color:  rgb(252, 51, 0);
+    border: solid rgb(252, 51, 0);
+}
+
+.supports-and-clients {
+    width: 1920px;
+    height: 934px;
+    padding-top: 80px;
+    background-color: rgb(244, 245, 247);
+}
+
+.support-main-container {
+    width: 1230px;
+    height: 194px;
+    margin-left: 345px;
+}
+
+.supports-and-clients-header {
+    width: 584px;
+    height: 60px;
+    align-items: center;
+    margin-left: 323px;
+    margin-bottom: 50px;
+}
+
+.supports-and-clients-header-style {
+    font-family: Ubuntu;
+    font-size: 46px;
+    font-weight: 700;
+    color: rgb(30, 33, 44);
+}
+
+.list-logos {
+    display: flex;
+    align-items: center;
+}
+
+.list-logos-items {
+    margin-right: 100px;
+}
